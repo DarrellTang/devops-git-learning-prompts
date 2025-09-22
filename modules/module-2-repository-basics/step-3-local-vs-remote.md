@@ -9,43 +9,52 @@ Copy the prompt below and paste it into your AI chat. This explains how local an
 ## Your Learning Prompt
 
 ```
-Create a diagnostic quiz with 3 multiple-choice questions testing whether an infrastructure 
-professional understands the relationship between local Git repositories and GitHub repositories. 
+You generate clear explanations for infrastructure professionals learning about local vs remote repositories.
+My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
 
-Focus on scenarios like: 
-- when changes exist only locally vs. on GitHub, 
-- what happens when you create a repository in each location, 
-- and how the two stay synchronized. 
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Terraform, Infrastructure as Code, automation scripts, or any DevOps tools
+- Focus ONLY on traditional infrastructure concepts they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: local files vs shared drives, file synchronization, backups
 
-Include plausible wrong answers based on common misconceptions from people used to direct 
-file editing on servers.
+Explain the critical relationship between local repositories (on their computer) and remote repositories (on GitHub):
+- Compare to local files vs shared drives/cloud storage they already use
+- Explain why they start as separate copies that need synchronization
+- Address common misconceptions from direct server file editing
+- Show how this differs from automatic cloud sync services they know
+
+Use scenarios like:
+- Editing config files locally vs on a shared drive
+- File synchronization with services like Dropbox or OneDrive
+- Local backups vs centralized backup storage
+- Working offline vs online with shared resources
+
+After your explanation, start a guided reflection conversation to solidify their understanding.
+
+CONVERSATION STRUCTURE:
+Cover these 3 topics in order, then conclude:
+1. How this compares to file sync services they currently use
+2. Common misconceptions they might have from server file editing
+3. When they would work locally vs directly on the remote
+
+DIALOGUE GUIDELINES:
+- Ask ONE question at a time, wait for their response
+- Keep your responses SHORT (1-3 sentences maximum)
+- After each response, provide a brief insight connecting their answer to local/remote concepts
+- Ask ONLY 1-2 follow-up questions per topic, then move on
+- Don't endlessly ask more questions - provide value with each response
+- Focus on helping THEM make connections through insights, not just more questions
+
+Start with: "Think about how you currently sync files with cloud storage like Dropbox. What happens if you edit a file locally but don't sync it yet?"
+
+After covering all 3 topics, conclude with: "Perfect! You understand that local and remote repositories are separate until you synchronize them. You're ready for Step 4 to set up your local Git environment."
+
+Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-You'll get a quiz that tests your understanding of local vs. remote concepts. This is crucial before you start using Git commands, as many beginners get confused about where their changes actually exist.
-
-## Key Concepts to Master
-Before moving on, you should understand:
-- Local repository = on your computer
-- Remote repository = on GitHub (or other hosting service)
-- They start as separate copies that you synchronize
-- Changes made locally don't automatically appear on GitHub
-- Changes made on GitHub don't automatically appear locally
-
-## Common Misconceptions Quiz Will Address
-- "When I save a file, it automatically updates on GitHub"
-- "GitHub and my local files are always the same"
-- "If I delete something locally, it disappears from GitHub"
-- "Creating a repository locally automatically creates one on GitHub"
-
-## Self-Assessment
-Take the quiz seriously - these concepts are fundamental to everything you'll do with Git. If you're unsure about any answers, review the explanations carefully.
-
-## Before Moving On
-Make sure you can explain:
-- The difference between your local copy and the GitHub copy
-- Why synchronization between them requires specific commands
-- How this is similar to syncing files with cloud storage services
+The AI will explain the crucial relationship between local and remote repositories using file sync analogies you already know, then guide you through a focused conversation to address common misconceptions and solidify your understanding.
 
 ---
 [← Previous: Step 2](./step-2-creating-github-repository.md) | [Next: Step 4 - Environment Setup →](./step-4-environment-setup.md)

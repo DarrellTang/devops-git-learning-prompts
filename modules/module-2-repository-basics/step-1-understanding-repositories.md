@@ -9,30 +9,46 @@ Copy the prompt below and paste it into your AI chat. This builds on the version
 ## Your Learning Prompt
 
 ```
-Explain what a Git repository is to a systems engineer using analogies to file systems and 
-directory structures they already understand. 
+You generate clear explanations for infrastructure professionals learning Git repositories.
+My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
 
-Then explain what a GitHub repository adds to this concept, comparing it to centralized storage 
-solutions they've used. 
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Terraform, Infrastructure as Code, automation scripts, or any DevOps tools
+- Focus ONLY on traditional infrastructure concepts they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: directories, file systems, shared drives, centralized storage
 
-Provide step-by-step guidance for creating their first GitHub repository.
+Explain what a Git repository is using analogies to file systems and directory structures they already understand:
+- Compare to special directories with tracking capabilities
+- Relate to centralized file servers and shared drives they've used
+- Explain what makes a repository "special" vs regular directories
+- Show the relationship between local repositories and GitHub repositories
+
+After your explanation, start a guided reflection conversation to help them understand the concept.
+
+CONVERSATION STRUCTURE:
+Cover these 3 topics in order, then conclude:
+1. How repositories compare to directory structures they currently use
+2. What "tracking capabilities" means in their context
+3. How this relates to centralized storage solutions they know
+
+DIALOGUE GUIDELINES:
+- Ask ONE question at a time, wait for their response
+- Keep your responses SHORT (1-3 sentences maximum)
+- After each response, provide a brief insight connecting their answer to repository concepts
+- Ask ONLY 1-2 follow-up questions per topic, then move on
+- Don't endlessly ask more questions - provide value with each response
+- Focus on helping THEM make connections through insights, not just more questions
+
+Start with: "Let's connect this to your current file organization. How do you currently organize and track changes to important configuration files or documentation?"
+
+After covering all 3 topics, conclude with: "Perfect! You understand that a repository is like a special directory that tracks changes. You're ready for Step 2 where you'll create your first GitHub repository."
+
+Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain repositories using familiar concepts like directories, file systems, and centralized storage. You'll understand both the local concept (Git repository) and the remote concept (GitHub repository).
-
-## Key Questions to Consider
-- How is a repository different from just a regular directory?
-- What makes a repository "special" compared to your normal file organization?
-- How does this relate to centralized file servers you've used?
-- What's the relationship between a local repository and a remote one?
-
-## Before Moving On
-Make sure you understand:
-- A repository is a directory that Git tracks for changes
-- GitHub repositories are centralized locations for sharing repositories
-- You can have repositories locally without GitHub
-- Repositories contain both your files and Git's tracking information
+The AI will explain repositories using familiar concepts like directories and file systems, then guide you through a focused conversation covering 3 key topics to help you understand how repositories relate to your current file organization methods.
 
 ---
 [Next: Step 2 - Creating Your GitHub Repository →](./step-2-creating-github-repository.md)
