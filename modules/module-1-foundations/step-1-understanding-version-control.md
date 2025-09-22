@@ -31,16 +31,18 @@ Then provide 5 analogies comparing version control to traditional IT processes l
 - Document version tracking
 - Multi-person file sharing challenges
 
+After your explanation, engage the learner with these reflection questions to help them apply the concepts:
+1. "How does version control relate to change control processes you currently use?"
+2. "What specific problems in your current infrastructure work could this solve?"
+3. "Which analogy makes the most sense for your situation?"
+
+Ask them to think about each question and share their thoughts. Then provide personalized feedback and examples based on their responses to reinforce their understanding.
+
 Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain version control using infrastructure concepts you already know, like change management processes and backup strategies. Pay attention to how version control differs from simple file backups.
-
-## Key Questions to Consider
-- How does this relate to change control processes you currently use?
-- What problems could this solve in your current work?
-- Which analogy makes the most sense to you?
+The AI will explain version control using infrastructure concepts you already know, then ask you reflection questions to help connect these concepts to your current work. Be prepared to share your thoughts about your current change management processes and infrastructure challenges. The AI will provide personalized feedback based on your responses.
 
 ---
 [Next: Step 2 - Git vs GitHub →](./step-2-git-vs-github.md)
