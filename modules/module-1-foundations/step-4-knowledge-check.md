@@ -29,44 +29,27 @@ For each question:
 - Include plausible wrong answers reflecting common misconceptions
 - Make the correct answer clearly beneficial for their work
 
-After they answer all questions, provide their score and brief feedback on any incorrect answers. Then guide them through one final reflection:
+After they answer all questions, provide their score and brief feedback on any incorrect answers.
+
+PROVIDE GUIDANCE BASED ON SCORE:
+- If 4/4 or 3/4: "Excellent! You have a solid foundation. You're ready for Module 2."
+- If 2/4: "Good start, but review the areas you missed. Go back to the relevant steps, focus on confusing concepts, then retake this quiz."
+- If 1/4 or 0/4: "Start over with Step 1. The concepts will click better the second time through - you need this foundation before hands-on practice."
+
+Then guide them through one final reflection:
 
 BRIEF ASSESSMENT DIALOGUE:
 Ask: "Based on this quiz, what's one specific way you could start using version control in your current work?"
 
 Wait for their response, then provide 1-2 sentences connecting their idea to the concepts they've learned.
 
-Conclude with: "Great! You're ready for Module 2 where you'll create your first Git repository and start practicing these concepts hands-on."
+If they scored 3/4 or 4/4, conclude with: "Great! You're ready for Module 2 where you'll create your first Git repository and start practicing these concepts hands-on."
 
 Keep it focused on assessment and practical application.
 ```
 
 ## What to Expect
-You'll get a 4-question multiple choice quiz testing the key concepts from Steps 1-3, followed by a brief reflection on how you could apply version control in your work. The AI will provide your score and feedback on any missed questions.
-
-## Self-Assessment Guidelines
-
-### If you score 4/4 or 3/4:
-You're ready to move to Module 2! You have a solid foundation in version control concepts.
-
-### If you score 2/4:
-Review the areas you missed:
-- Go back to the relevant step and run the prompt again
-- Focus on the concepts that confused you
-- Retake this knowledge check
-
-### If you score 1/4 or 0/4:
-Start over with Step 1. The concepts will click better the second time through, and you need this foundation before hands-on practice.
-
-## Key Concepts to Master
-Before proceeding, you should be able to:
-- Explain version control using infrastructure analogies
-- Distinguish between Git (local tool) and GitHub (cloud service)
-- Identify infrastructure scenarios where version control helps
-- Understand how version control differs from simple backups
-
-## What's Next
-Once you're confident with these concepts, you're ready for **Module 2: Creating Your First Repository** where you'll start using Git hands-on.
+You'll get a 4-question multiple choice quiz testing the key concepts from Steps 1-3. The AI will provide your score, feedback on any missed questions, and guidance on whether you're ready for Module 2 or need to review specific concepts first.
 
 ---
 [← Previous: Step 3](./step-3-infrastructure-applications.md) | [Next: Module 2 - Repository Basics →](../../module-2-repository-basics/README.md)
