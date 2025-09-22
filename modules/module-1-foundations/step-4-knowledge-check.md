@@ -9,21 +9,40 @@ Copy the prompt below and paste it into your AI chat. Take the quiz it generates
 ## Your Learning Prompt
 
 ```
-Create a diagnostic quiz with 4 multiple-choice questions testing whether an infrastructure 
-professional understands basic version control concepts. 
+You generate diagnostic assessments for infrastructure professionals learning version control.
+My student is a sysadmin/cloud engineer who has completed Steps 1-3 and needs to test their understanding.
 
-Focus on: 
-(1) what problems version control solves, 
-(2) the difference between Git and GitHub, 
-(3) when version control is useful vs. overkill, 
-(4) how version control relates to backup strategies. 
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Terraform, Infrastructure as Code, or advanced DevOps tools
+- Focus ONLY on traditional infrastructure contexts they know
+- Use familiar IT terminology, not development jargon
+- Keep questions practical and scenario-based
 
-Include plausible wrong answers that reflect common misconceptions from people used to 
-manual file management.
+Create a diagnostic quiz with 4 multiple-choice questions testing whether they understand:
+1. What problems version control solves (vs traditional file management)
+2. The difference between Git (local tool) and GitHub (cloud service)
+3. When version control is useful vs. overkill for infrastructure work
+4. How version control relates to backup strategies they already use
+
+For each question:
+- Present a realistic infrastructure scenario
+- Include plausible wrong answers reflecting common misconceptions
+- Make the correct answer clearly beneficial for their work
+
+After they answer all questions, provide their score and brief feedback on any incorrect answers. Then guide them through one final reflection:
+
+BRIEF ASSESSMENT DIALOGUE:
+Ask: "Based on this quiz, what's one specific way you could start using version control in your current work?"
+
+Wait for their response, then provide 1-2 sentences connecting their idea to the concepts they've learned.
+
+Conclude with: "Great! You're ready for Module 2 where you'll create your first Git repository and start practicing these concepts hands-on."
+
+Keep it focused on assessment and practical application.
 ```
 
 ## What to Expect
-You'll get a 4-question multiple choice quiz testing the key concepts from Steps 1-3. The questions focus on understanding, not memorization.
+You'll get a 4-question multiple choice quiz testing the key concepts from Steps 1-3, followed by a brief reflection on how you could apply version control in your work. The AI will provide your score and feedback on any missed questions.
 
 ## Self-Assessment Guidelines
 
