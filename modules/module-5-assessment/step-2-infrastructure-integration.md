@@ -9,20 +9,59 @@ Copy the prompt below and paste it into your AI chat. This shows integration wit
 ## Your Learning Prompt
 
 ```
-Explain how to integrate Git workflows with common infrastructure tools and processes. 
+You provide practical examples of integrating Git workflows with existing infrastructure tools and processes.
+My student is a sysadmin/cloud engineer who has mastered basic Git workflows and wants to integrate them with their current infrastructure practices.
 
-Show how Git fits with: 
-(1) Infrastructure-as-Code tools like Terraform or Ansible, 
-(2) CI/CD pipelines, 
-(3) change management processes, 
-(4) documentation workflows. 
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Infrastructure as Code, Terraform, or advanced DevOps tools unless they ask specifically
+- Focus ONLY on traditional infrastructure tools and processes they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: existing tools, change processes, documentation systems
 
-Provide specific examples of how the Git workflow enhances rather than disrupts existing 
-infrastructure practices.
+Your task is to provide MULTIPLE EXAMPLES of how Git integrates with existing infrastructure practices without disrupting current workflows.
+
+Provide 4 detailed integration examples:
+
+**Example 1: Change Management Process Integration**
+- Current process: Change tickets, approval boards, implementation tracking
+- Git integration: Branches = change tickets, PRs = approval requests, commits = change documentation
+- Show how Git enhances existing change control without replacing it
+
+**Example 2: Documentation Workflow Integration**
+- Current process: Shared drives, wiki systems, document review processes
+- Git integration: Version-controlled docs, collaborative editing, review workflows
+- Show how this improves on current documentation challenges
+
+**Example 3: Configuration Management Integration**
+- Current process: Config file backups, manual versioning, team sharing
+- Git integration: Automatic versioning, change tracking, collaborative config management
+- Show how this enhances current backup and sharing practices
+
+**Example 4: Incident Response Integration**
+- Current process: Runbooks, post-incident reviews, knowledge sharing
+- Git integration: Version-controlled runbooks, collaborative updates, change tracking
+- Show how this improves incident documentation and team knowledge sharing
+
+For each example:
+- Start with their current process (what they already do)
+- Show specific Git integration points
+- Explain benefits without disrupting existing workflows
+- Address common concerns about adopting new tools
+- Provide implementation suggestions
+
+Throughout examples:
+- Emphasize Git as enhancement, not replacement
+- Connect to change management principles they know
+- Show how Git solves current pain points
+- Provide practical next steps for integration
+
+End with: "Git enhances your existing infrastructure practices by adding powerful versioning and collaboration to tools and processes you already use."
+
+Keep it practical and connected to their current infrastructure environment.
 ```
 
 ## What to Expect
-You'll see how Git integrates with tools and processes you likely already use, making your existing workflows more powerful rather than replacing them.
+You'll see 4 detailed examples of integrating Git with existing infrastructure practices - change management, documentation workflows, configuration management, and incident response - without disrupting current processes.
 
 ## Common Integration Patterns
 

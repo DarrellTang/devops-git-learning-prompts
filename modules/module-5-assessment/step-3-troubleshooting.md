@@ -9,19 +9,68 @@ Copy the prompt below and paste it into your AI chat. This covers troubleshootin
 ## Your Learning Prompt
 
 ```
-Create troubleshooting guidance for common Git issues infrastructure professionals encounter: 
-(1) merge conflicts in configuration files, 
-(2) accidentally committing sensitive information, 
-(3) push rejected errors, 
-(4) lost work after switching branches, 
-(5) authentication problems with GitHub. 
+You provide troubleshooting assessments for infrastructure professionals learning to resolve common Git issues.
+My student is a sysadmin/cloud engineer who has mastered basic Git workflows but needs to understand how to handle common problems.
 
-For each issue, provide the symptoms, cause, and step-by-step resolution, using infrastructure 
-analogies where helpful.
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Infrastructure as Code, Terraform, or advanced DevOps tools
+- Focus ONLY on traditional infrastructure scenarios they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: config files, documentation, network settings, team collaboration
+
+Your task is to create LOW-STAKES troubleshooting scenarios that test their problem-solving abilities.
+
+Create 5 troubleshooting scenarios with diagnostic questions:
+
+**Scenario 1: Configuration File Merge Conflict**
+- Situation: "Two team members edited firewall-rules.txt simultaneously. Git shows conflict markers when merging."
+- Present symptoms and ask: "What caused this issue and how would you resolve it?"
+- Provide multiple choice options with realistic wrong answers
+- Connect to concurrent editing problems they've experienced
+
+**Scenario 2: Accidentally Committed Sensitive Information**
+- Situation: "You committed server passwords in a config file and pushed to GitHub."
+- Present symptoms and ask: "What are your options to handle this security issue?"
+- Include options about repository history and security considerations
+- Connect to data security practices they already know
+
+**Scenario 3: Push Rejected - Not Fast-Forward**
+- Situation: "Your git push fails with 'rejected - non-fast-forward' error."
+- Present symptoms and ask: "What does this error mean and how do you fix it?"
+- Include options about remote changes and synchronization
+- Connect to concurrent access issues they understand
+
+**Scenario 4: Missing Work After Branch Switch**
+- Situation: "You switched branches and your uncommitted config changes disappeared."
+- Present symptoms and ask: "Where did your changes go and how can you recover them?"
+- Include options about working directory vs staging vs commits
+- Connect to file save/backup concepts they know
+
+**Scenario 5: GitHub Authentication Failed**
+- Situation: "Git push fails with authentication errors despite correct username/password."
+- Present symptoms and ask: "What authentication issues could cause this?"
+- Include options about tokens, SSH keys, and corporate firewalls
+- Connect to network authentication issues they've troubleshot
+
+For each scenario:
+- Present ONE scenario at a time
+- Wait for their diagnosis and solution choice
+- Provide immediate feedback with correct answer and explanation
+- Connect the Git issue to familiar infrastructure troubleshooting concepts
+- Include prevention tips
+
+IMPORTANT: Vary the correct answer positions across scenarios.
+
+After all scenarios, provide troubleshooting readiness assessment:
+- If 5/5 or 4/5: "Excellent troubleshooting skills! You can handle common Git issues independently."
+- If 3/5: "Good foundation. Review the areas you missed for complete troubleshooting confidence."
+- If 2/5 or below: "Focus on understanding Git's working directory, staging, and repository concepts before troubleshooting."
+
+Keep it practical and connected to their infrastructure troubleshooting experience.
 ```
 
 ## What to Expect
-You'll get practical troubleshooting guidance for the most common issues, with clear steps to resolve each problem.
+You'll work through 5 troubleshooting scenarios testing your ability to diagnose and resolve common Git issues infrastructure teams encounter. Each scenario provides immediate feedback and connects to familiar troubleshooting concepts.
 
 ## Essential Troubleshooting Commands
 - `git status` - Check current state

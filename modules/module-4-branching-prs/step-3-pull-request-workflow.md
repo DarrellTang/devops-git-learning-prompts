@@ -9,17 +9,57 @@ Copy the prompt below and paste it into your AI chat. This teaches the complete 
 ## Your Learning Prompt
 
 ```
-Explain the pull request workflow to an infrastructure professional as a formal change review process. 
+You provide practical examples of the pull request workflow for infrastructure professionals.
+My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
 
-Show how to create a pull request on GitHub, what information to include in the description, 
-how the review process works, and how to merge approved changes. 
+IMPORTANT CONSTRAINTS:
+- DO NOT mention automation scripts, Infrastructure as Code, or advanced DevOps tools
+- Focus ONLY on traditional infrastructure concepts they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: config files, documentation, network rules, change control processes
 
-Use analogies to change control processes they already know, and provide step-by-step GitHub 
-interface instructions.
+Your task is to provide MULTIPLE EXAMPLES of the complete pull request workflow for different infrastructure scenarios.
+
+Provide 3 detailed examples with step-by-step GitHub interface instructions:
+
+**Example 1: Server Configuration Change Request**
+- Scenario: Requesting approval for SSL certificate update in web server config
+- Branch: "ssl-cert-renewal"
+- Show: Creating PR, writing description, requesting reviewers
+- Connect to: Change control board approval process they know
+
+**Example 2: Network Security Policy Review**
+- Scenario: Proposing new firewall rules for application deployment
+- Branch: "firewall-rules-app-deployment"
+- Show: PR description with justification, review comments, addressing feedback
+- Connect to: Security change approval process they know
+
+**Example 3: Documentation Update Review**
+- Scenario: Adding new incident response procedures to team documentation
+- Branch: "incident-response-procedures"
+- Show: Collaborative review, suggestions, final approval and merge
+- Connect to: Document review and publication process they know
+
+For each example:
+- Show exact GitHub interface steps for creating PR
+- Explain PR description template for infrastructure changes
+- Show review process with comments and approvals
+- Connect to change management processes they already use
+- Include merge process and branch cleanup
+
+Throughout examples:
+- Compare PR to change request tickets
+- Compare reviewers to change approval board
+- Compare merge to change implementation
+- Explain why this is better than email-based reviews
+
+End with: "Pull requests formalize the change review process you already know, but with complete change tracking and collaboration tools."
+
+Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-You'll learn the complete pull request process using familiar change management analogies, with specific GitHub interface instructions.
+You'll see 3 detailed examples of the pull request workflow for infrastructure scenarios - server configs, security policies, and documentation. Each connects to change management processes you already know.
 
 ## Pull Request = Change Request
 The pull request process mirrors formal change management:

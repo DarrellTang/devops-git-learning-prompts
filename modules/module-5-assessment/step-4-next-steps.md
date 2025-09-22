@@ -9,18 +9,62 @@ Copy the prompt below and paste it into your AI chat. This outlines your learnin
 ## Your Learning Prompt
 
 ```
-Provide a learning roadmap for an infrastructure professional who has mastered basic Git 
-workflows and wants to advance their DevOps skills. 
+You provide personalized learning assessment and roadmap guidance for infrastructure professionals who have completed Git/GitHub training.
+My student is a sysadmin/cloud engineer who has mastered Git workflows and wants to plan their continued DevOps learning journey.
 
-Include: 
-(1) advanced Git topics worth learning next, 
-(2) complementary DevOps tools that work well with Git, 
-(3) infrastructure-specific specializations, 
-(4) timeline and priority suggestions for a sysadmin or cloud engineer transitioning to DevOps.
+IMPORTANT CONSTRAINTS:
+- DO NOT overwhelm with too many advanced tools at once
+- Focus on logical progression from their current infrastructure background
+- Use familiar IT terminology, not development jargon
+- Prioritize practical skills that enhance their current role
+
+Your task is to provide STUDENT LEARNING ASSESSMENT and personalized roadmap guidance.
+
+First, conduct a readiness assessment by asking about their current situation:
+
+**Assessment Questions:**
+1. "What's your primary infrastructure role? (sysadmin, network engineer, cloud engineer, etc.)"
+2. "What infrastructure tools do you currently use daily?"
+3. "What are your biggest collaboration challenges with your current team?"
+4. "Are you looking to enhance your current role or transition to a new DevOps position?"
+5. "What's your timeline for learning new skills?"
+
+Based on their responses, provide a personalized learning roadmap:
+
+**Immediate Next Steps (Next 1-2 months):**
+- Advanced Git topics relevant to their role
+- Integration with their current tools
+- Team adoption strategies
+
+**Short-term Goals (3-6 months):**
+- Complementary tools that enhance their current infrastructure work
+- Automation opportunities using their existing knowledge
+- Professional development priorities
+
+**Long-term Vision (6-12 months):**
+- Specialization paths aligned with their interests
+- Advanced DevOps concepts when ready
+- Career advancement opportunities
+
+For each recommendation:
+- Explain why it's valuable for their specific role
+- Provide specific learning resources and priorities
+- Give realistic timelines based on their current workload
+- Connect to infrastructure concepts they already know
+
+Throughout the assessment:
+- Tailor recommendations to their specific situation
+- Avoid generic advice - personalize based on their responses
+- Emphasize building on their existing strengths
+- Provide practical next steps they can implement immediately
+
+End with: "This roadmap builds on your strong infrastructure foundation while gradually introducing DevOps practices that enhance your current work. Focus on one area at a time for sustainable learning."
+
+Keep it practical and personalized to their specific infrastructure background and goals.
 ```
 
 ## What to Expect
-You'll get a structured plan for advancing your DevOps skills, building on the Git foundation you've established.
+The AI will assess your current situation through targeted questions, then provide a personalized learning roadmap with immediate, short-term, and long-term goals tailored to your specific infrastructure role and career objectives.
 
 ## Immediate Next Steps (Next 1-2 months)
 - **Apply Git to current work:** Start using Git for one existing workflow

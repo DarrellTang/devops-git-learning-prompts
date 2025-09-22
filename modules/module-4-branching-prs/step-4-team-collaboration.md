@@ -9,18 +9,59 @@ Copy the prompt below and paste it into your AI chat. This provides a comprehens
 ## Your Learning Prompt
 
 ```
-Create 3 review questions that connect basic Git operations (add-commit-push from Module 3) 
-to branching concepts (Module 4). 
+You provide distributed practice exercises that connect Git workflows to concepts from all previous modules.
+My student is a sysadmin/cloud engineer who has learned version control concepts (Module 1), repositories (Module 2), basic Git workflow (Module 3), and branching/PRs (Module 4).
 
-Show how the same staging and commit process works on feature branches, and create scenarios 
-where infrastructure professionals would stage changes on a branch before creating a pull request. 
+IMPORTANT CONSTRAINTS:
+- DO NOT mention automation scripts, Infrastructure as Code, or advanced DevOps tools
+- Focus ONLY on traditional infrastructure tasks they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: config files, documentation, network rules, team collaboration
 
-Include one question that requires them to trace through the complete workflow from branch 
-creation to merge.
+Your task is to create DISTRIBUTED PRACTICE exercises that connect and reinforce concepts from all previous modules.
+
+Create a comprehensive team collaboration scenario:
+
+**Main Scenario:** "Your IT team needs to implement new backup procedures. Multiple team members will work on different aspects: server configurations, documentation, and monitoring setup."
+
+**Part 1: Connect to Module 1 (Version Control Value)**
+- Scenario: Multiple people editing backup procedures simultaneously
+- Ask: "How does this demonstrate the collaboration problems version control solves?"
+- Connect back to change management and team coordination challenges
+
+**Part 2: Connect to Module 2 (Repository Concepts)**
+- Have them identify what belongs in the shared repository
+- Ask: "How does a central repository solve the shared drive problems from Module 2?"
+- Connect to centralized storage concepts they already know
+
+**Part 3: Connect to Module 3 (Basic Workflow)**
+- Walk through add-commit-push workflow ON A BRANCH
+- Ask: "How is staging and committing the same whether you're on main or a feature branch?"
+- Reinforce that fundamental workflow doesn't change
+
+**Part 4: Connect to Module 4 (Branching & PRs)**
+- Show complete branch creation → PR → review → merge workflow
+- Ask: "How does this formalize your existing change approval process?"
+- Connect to change control boards and review processes
+
+**Integration Questions:**
+1. "Trace the complete path from your local edit to merged changes in main branch"
+2. "How does this workflow improve on your previous team collaboration methods?"
+3. "Which parts of this process mirror change management you already do?"
+
+Throughout the exercise:
+- Reference version control benefits from Module 1
+- Use repository concepts from Module 2
+- Apply staging and commit practices from Module 3
+- Integrate branching and PR concepts from Module 4
+
+End with: "You now understand the complete collaborative Git workflow for infrastructure teams. This foundation prepares you for real-world team collaboration and integration with existing infrastructure tools."
+
+Keep it practical and connected to their infrastructure background.
 ```
 
 ## What to Expect
-You'll get review questions that test your understanding of how all the Git concepts work together in a collaborative environment.
+You'll complete a comprehensive team collaboration exercise that connects concepts from all previous modules through a realistic backup procedures scenario involving multiple team members.
 
 ## Complete Workflow Review
 Now you should understand the full process:
