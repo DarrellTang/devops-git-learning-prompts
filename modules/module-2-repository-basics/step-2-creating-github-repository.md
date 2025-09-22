@@ -9,7 +9,12 @@ Copy the prompt below and paste it into your AI chat. This will guide you throug
 ## Your Learning Prompt
 
 ```
-A network engineer needs to share their server automation scripts with their team. Walk them through creating a GitHub repository and connecting their local Git repository to it, using terminology they understand from network file shares and centralized storage. Provide exact steps for the GitHub web interface and explain each option they'll encounter.
+A network engineer needs to share their server automation scripts with their team. 
+
+Walk them through creating a GitHub repository and connecting their local Git repository to it, 
+using terminology they understand from network file shares and centralized storage. 
+
+Provide exact steps for the GitHub web interface and explain each option they'll encounter.
 ```
 
 ## What to Expect

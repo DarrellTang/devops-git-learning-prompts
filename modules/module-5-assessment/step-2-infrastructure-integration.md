@@ -9,7 +9,16 @@ Copy the prompt below and paste it into your AI chat. This shows integration wit
 ## Your Learning Prompt
 
 ```
-Explain how to integrate Git workflows with common infrastructure tools and processes. Show how Git fits with: (1) Infrastructure-as-Code tools like Terraform or Ansible, (2) CI/CD pipelines, (3) change management processes, (4) documentation workflows. Provide specific examples of how the Git workflow enhances rather than disrupts existing infrastructure practices.
+Explain how to integrate Git workflows with common infrastructure tools and processes. 
+
+Show how Git fits with: 
+(1) Infrastructure-as-Code tools like Terraform or Ansible, 
+(2) CI/CD pipelines, 
+(3) change management processes, 
+(4) documentation workflows. 
+
+Provide specific examples of how the Git workflow enhances rather than disrupts existing 
+infrastructure practices.
 ```
 
 ## What to Expect

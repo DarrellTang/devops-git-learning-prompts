@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This outlines your learnin
 ## Your Learning Prompt
 
 ```
-Provide a learning roadmap for an infrastructure professional who has mastered basic Git workflows and wants to advance their DevOps skills. Include: (1) advanced Git topics worth learning next, (2) complementary DevOps tools that work well with Git, (3) infrastructure-specific specializations, (4) timeline and priority suggestions for a sysadmin or cloud engineer transitioning to DevOps.
+Provide a learning roadmap for an infrastructure professional who has mastered basic Git 
+workflows and wants to advance their DevOps skills. 
+
+Include: 
+(1) advanced Git topics worth learning next, 
+(2) complementary DevOps tools that work well with Git, 
+(3) infrastructure-specific specializations, 
+(4) timeline and priority suggestions for a sysadmin or cloud engineer transitioning to DevOps.
 ```
 
 ## What to Expect

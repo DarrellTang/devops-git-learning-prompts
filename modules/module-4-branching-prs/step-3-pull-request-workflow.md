@@ -9,7 +9,13 @@ Copy the prompt below and paste it into your AI chat. This teaches the complete 
 ## Your Learning Prompt
 
 ```
-Explain the pull request workflow to an infrastructure professional as a formal change review process. Show how to create a pull request on GitHub, what information to include in the description, how the review process works, and how to merge approved changes. Use analogies to change control processes they already know, and provide step-by-step GitHub interface instructions.
+Explain the pull request workflow to an infrastructure professional as a formal change review process. 
+
+Show how to create a pull request on GitHub, what information to include in the description, 
+how the review process works, and how to merge approved changes. 
+
+Use analogies to change control processes they already know, and provide step-by-step GitHub 
+interface instructions.
 ```
 
 ## What to Expect

@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This provides hands-on bra
 ## Your Learning Prompt
 
 ```
-Generate 4 scenarios showing the complete branch-modify-commit-push workflow: (1) testing a new monitoring configuration, (2) updating security policies, (3) trying a new automation approach, (4) documenting a new procedure. For each scenario, show every Git command from branch creation through pushing the branch, explaining why each step matters for infrastructure teams.
+Generate 4 scenarios showing the complete branch-modify-commit-push workflow: 
+(1) testing a new monitoring configuration, 
+(2) updating security policies, 
+(3) trying a new automation approach, 
+(4) documenting a new procedure. 
+
+For each scenario, show every Git command from branch creation through pushing the branch, 
+explaining why each step matters for infrastructure teams.
 ```
 
 ## What to Expect

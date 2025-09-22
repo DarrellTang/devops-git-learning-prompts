@@ -9,7 +9,16 @@ Copy the prompt below and paste it into your AI chat. This explains how local an
 ## Your Learning Prompt
 
 ```
-Create a diagnostic quiz with 3 multiple-choice questions testing whether an infrastructure professional understands the relationship between local Git repositories and GitHub repositories. Focus on scenarios like: when changes exist only locally vs. on GitHub, what happens when you create a repository in each location, and how the two stay synchronized. Include plausible wrong answers based on common misconceptions from people used to direct file editing on servers.
+Create a diagnostic quiz with 3 multiple-choice questions testing whether an infrastructure 
+professional understands the relationship between local Git repositories and GitHub repositories. 
+
+Focus on scenarios like: 
+- when changes exist only locally vs. on GitHub, 
+- what happens when you create a repository in each location, 
+- and how the two stay synchronized. 
+
+Include plausible wrong answers based on common misconceptions from people used to direct 
+file editing on servers.
 ```
 
 ## What to Expect

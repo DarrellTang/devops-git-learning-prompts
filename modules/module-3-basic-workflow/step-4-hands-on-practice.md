@@ -9,7 +9,13 @@ Copy the prompt below and paste it into your AI chat. This provides hands-on exe
 ## Your Learning Prompt
 
 ```
-Create a practical exercise where the student must demonstrate the add-commit-push workflow. Provide a scenario: "You've just created a simple script that backs up log files. Walk through the exact Git commands to add this script to your repository, commit it with an appropriate message, and push it to GitHub." Then create 3 follow-up questions that test their understanding of what each command accomplished.
+Create a practical exercise where the student must demonstrate the add-commit-push workflow. 
+
+Provide a scenario: "You've just created a simple script that backs up log files. Walk through 
+the exact Git commands to add this script to your repository, commit it with an appropriate 
+message, and push it to GitHub." 
+
+Then create 3 follow-up questions that test their understanding of what each command accomplished.
 ```
 
 ## What to Expect

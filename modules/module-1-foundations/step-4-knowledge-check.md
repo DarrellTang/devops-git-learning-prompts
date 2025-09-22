@@ -9,7 +9,17 @@ Copy the prompt below and paste it into your AI chat. Take the quiz it generates
 ## Your Learning Prompt
 
 ```
-Create a diagnostic quiz with 4 multiple-choice questions testing whether an infrastructure professional understands basic version control concepts. Focus on: (1) what problems version control solves, (2) the difference between Git and GitHub, (3) when version control is useful vs. overkill, (4) how version control relates to backup strategies. Include plausible wrong answers that reflect common misconceptions from people used to manual file management.
+Create a diagnostic quiz with 4 multiple-choice questions testing whether an infrastructure 
+professional understands basic version control concepts. 
+
+Focus on: 
+(1) what problems version control solves, 
+(2) the difference between Git and GitHub, 
+(3) when version control is useful vs. overkill, 
+(4) how version control relates to backup strategies. 
+
+Include plausible wrong answers that reflect common misconceptions from people used to 
+manual file management.
 ```
 
 ## What to Expect

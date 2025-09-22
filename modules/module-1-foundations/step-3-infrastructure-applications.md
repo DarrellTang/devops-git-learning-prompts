@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This will show you specifi
 ## Your Learning Prompt
 
 ```
-Generate 4 different scenarios where infrastructure professionals would benefit from version control: (1) managing server configuration files, (2) tracking infrastructure-as-code changes, (3) maintaining documentation, (4) sharing automation scripts. For each scenario, show the specific problems version control solves and what their workflow looks like without and with version control.
+Generate 4 different scenarios where infrastructure professionals would benefit from version control: 
+(1) managing server configuration files, 
+(2) tracking infrastructure-as-code changes, 
+(3) maintaining documentation, 
+(4) sharing automation scripts. 
+
+For each scenario, show the specific problems version control solves and what their workflow 
+looks like without and with version control.
 ```
 
 ## What to Expect

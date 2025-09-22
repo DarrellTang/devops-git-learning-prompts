@@ -9,7 +9,13 @@ Copy the prompt below and paste it into your AI chat. This builds on what you le
 ## Your Learning Prompt
 
 ```
-Explain the difference between Git and GitHub to an infrastructure professional who might confuse them. Use analogies they understand: compare Git to a tool they use locally (like a text editor or configuration manager) and GitHub to a centralized service they use (like a file server or cloud storage). Provide multiple explanations from different angles to ensure they understand this critical distinction.
+Explain the difference between Git and GitHub to an infrastructure professional who might confuse them. 
+
+Use analogies they understand: compare Git to a tool they use locally (like a text editor or 
+configuration manager) and GitHub to a centralized service they use (like a file server or 
+cloud storage). 
+
+Provide multiple explanations from different angles to ensure they understand this critical distinction.
 ```
 
 ## What to Expect

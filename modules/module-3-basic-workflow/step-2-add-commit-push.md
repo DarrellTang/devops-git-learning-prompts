@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This shows the complete wo
 ## Your Learning Prompt
 
 ```
-Generate 4 different scenarios showing the complete add-commit-push workflow: (1) a cloud engineer updating Terraform files, (2) a sysadmin modifying configuration files, (3) a network engineer updating firewall rules, (4) a systems engineer adding documentation. For each scenario, show the exact Git commands, explain what each command does, and why this workflow is better than their current file management approach.
+Generate 4 different scenarios showing the complete add-commit-push workflow: 
+(1) a cloud engineer updating Terraform files, 
+(2) a sysadmin modifying configuration files, 
+(3) a network engineer updating firewall rules, 
+(4) a systems engineer adding documentation. 
+
+For each scenario, show the exact Git commands, explain what each command does, and why this 
+workflow is better than their current file management approach.
 ```
 
 ## What to Expect

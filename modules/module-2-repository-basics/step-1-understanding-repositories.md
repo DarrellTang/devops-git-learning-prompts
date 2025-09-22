@@ -9,7 +9,13 @@ Copy the prompt below and paste it into your AI chat. This builds on the version
 ## Your Learning Prompt
 
 ```
-Explain what a Git repository is to a systems engineer using analogies to file systems and directory structures they already understand. Then explain what a GitHub repository adds to this concept, comparing it to centralized storage solutions they've used. Provide step-by-step guidance for creating their first GitHub repository.
+Explain what a Git repository is to a systems engineer using analogies to file systems and 
+directory structures they already understand. 
+
+Then explain what a GitHub repository adds to this concept, comparing it to centralized storage 
+solutions they've used. 
+
+Provide step-by-step guidance for creating their first GitHub repository.
 ```
 
 ## What to Expect

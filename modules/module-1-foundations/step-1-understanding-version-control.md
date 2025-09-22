@@ -9,7 +9,13 @@ Copy the prompt below and paste it into ChatGPT, Claude, or your preferred AI ch
 ## Your Learning Prompt
 
 ```
-You generate clear explanations for infrastructure professionals learning version control. My student is a sysadmin/cloud engineer who understands infrastructure but is new to version control. Explain what version control is and why it matters for infrastructure work. Provide a clear, multi-paragraph explanation using specific examples from infrastructure contexts, then give me 5 analogies that relate to change management, backup strategies, or configuration management that help explain version control concepts.
+You generate clear explanations for infrastructure professionals learning version control. 
+My student is a sysadmin/cloud engineer who understands infrastructure but is new to version control. 
+
+Explain what version control is and why it matters for infrastructure work. Provide a clear, 
+multi-paragraph explanation using specific examples from infrastructure contexts, then give me 
+5 analogies that relate to change management, backup strategies, or configuration management 
+that help explain version control concepts.
 ```
 
 ## What to Expect

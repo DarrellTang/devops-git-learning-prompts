@@ -9,7 +9,15 @@ Copy the prompt below and paste it into your AI chat. This covers troubleshootin
 ## Your Learning Prompt
 
 ```
-Create troubleshooting guidance for common Git issues infrastructure professionals encounter: (1) merge conflicts in configuration files, (2) accidentally committing sensitive information, (3) push rejected errors, (4) lost work after switching branches, (5) authentication problems with GitHub. For each issue, provide the symptoms, cause, and step-by-step resolution, using infrastructure analogies where helpful.
+Create troubleshooting guidance for common Git issues infrastructure professionals encounter: 
+(1) merge conflicts in configuration files, 
+(2) accidentally committing sensitive information, 
+(3) push rejected errors, 
+(4) lost work after switching branches, 
+(5) authentication problems with GitHub. 
+
+For each issue, provide the symptoms, cause, and step-by-step resolution, using infrastructure 
+analogies where helpful.
 ```
 
 ## What to Expect

@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This will give you a check
 ## Your Learning Prompt
 
 ```
-Create a step-by-step environment setup checklist for an infrastructure professional who wants to start using Git. Include how to verify Git is installed, basic configuration steps (name and email), and how to authenticate with GitHub. Provide both Windows and Linux/Mac instructions. Focus on getting them ready for basic Git commands without overwhelming technical details.
+Create a step-by-step environment setup checklist for an infrastructure professional who wants 
+to start using Git. 
+
+Include how to verify Git is installed, basic configuration steps (name and email), and how to 
+authenticate with GitHub. 
+
+Provide both Windows and Linux/Mac instructions. Focus on getting them ready for basic Git 
+commands without overwhelming technical details.
 ```
 
 ## What to Expect

@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This teaches commit messag
 ## Your Learning Prompt
 
 ```
-Teach an infrastructure professional how to write effective Git commit messages for infrastructure work. Show examples of good vs bad commit messages for scenarios like: updating server configurations, modifying firewall rules, changing automation scripts, and updating documentation. Explain why clear commit messages matter for infrastructure teams and provide a simple template they can follow.
+Teach an infrastructure professional how to write effective Git commit messages for 
+infrastructure work. 
+
+Show examples of good vs bad commit messages for scenarios like: updating server configurations, 
+modifying firewall rules, changing automation scripts, and updating documentation. 
+
+Explain why clear commit messages matter for infrastructure teams and provide a simple template 
+they can follow.
 ```
 
 ## What to Expect

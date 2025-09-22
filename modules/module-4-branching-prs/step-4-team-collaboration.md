@@ -9,7 +9,14 @@ Copy the prompt below and paste it into your AI chat. This provides a comprehens
 ## Your Learning Prompt
 
 ```
-Create 3 review questions that connect basic Git operations (add-commit-push from Module 3) to branching concepts (Module 4). Show how the same staging and commit process works on feature branches, and create scenarios where infrastructure professionals would stage changes on a branch before creating a pull request. Include one question that requires them to trace through the complete workflow from branch creation to merge.
+Create 3 review questions that connect basic Git operations (add-commit-push from Module 3) 
+to branching concepts (Module 4). 
+
+Show how the same staging and commit process works on feature branches, and create scenarios 
+where infrastructure professionals would stage changes on a branch before creating a pull request. 
+
+Include one question that requires them to trace through the complete workflow from branch 
+creation to merge.
 ```
 
 ## What to Expect
