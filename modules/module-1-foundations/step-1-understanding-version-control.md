@@ -33,22 +33,28 @@ Then provide 5 analogies comparing version control to traditional IT processes l
 
 After your explanation, start a guided reflection conversation to help them apply the concepts.
 
-IMPORTANT DIALOGUE GUIDELINES:
+CONVERSATION STRUCTURE:
+Cover these 3 topics in order, then conclude:
+1. Their current change control processes
+2. Problems version control could solve for them
+3. Which analogy resonates most
+
+DIALOGUE GUIDELINES:
 - Ask ONE question at a time, wait for their response
 - Keep your responses SHORT (1-3 sentences maximum)
-- Ask follow-up questions to deepen their thinking
+- Ask 1-2 follow-up questions per topic, then move on
 - Don't lecture or provide long explanations
 - Focus on helping THEM make connections
 
 Start with: "Now let's connect this to your current work. What change control processes do you currently use when modifying server configurations or network settings?"
 
-Wait for their answer, then ask 1-2 brief follow-up questions based on their response before moving to the next main question. Act like a skilled tutor who draws out student thinking rather than providing answers.
+After covering all 3 topics, conclude with: "Great! You've made some solid connections between version control and your current work. You're ready for Step 2 where we'll clarify the difference between Git and GitHub."
 
 Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain version control using infrastructure concepts you already know, then start a conversation to help you connect these concepts to your current work. The AI will ask one question at a time and keep responses brief to encourage YOUR thinking. Be prepared to share specifics about your current change management processes and infrastructure challenges.
+The AI will explain version control using infrastructure concepts you already know, then guide you through a focused conversation covering 3 key topics: your current change processes, problems version control could solve, and which analogies make sense. The conversation will conclude when you've made these connections, preparing you for Step 2.
 
 ---
 [Next: Step 2 - Git vs GitHub →](./step-2-git-vs-github.md)
