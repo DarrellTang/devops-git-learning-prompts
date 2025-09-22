@@ -54,4 +54,4 @@ Keep these handy:
 - `git remote -v` - Check GitHub connection
 
 ---
-[← Previous: Step 3](./step-3-commit-messages.md) | [Next: Module 4 - Branching and Pull Requests →](../../module-4-branching-prs/README.md)
+[← Previous: Step 3](./step-3-commit-messages.md) | [Next: Module 4 - Branching and Pull Requests →](../module-4-branching-prs/README.md)

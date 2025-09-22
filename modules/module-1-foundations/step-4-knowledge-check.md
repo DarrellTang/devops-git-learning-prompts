@@ -56,4 +56,4 @@ Keep it focused on assessment and practical application.
 You'll get a 4-question multiple choice quiz testing the key concepts from Steps 1-3. The AI will provide your score, feedback on any missed questions, and guidance on whether you're ready for Module 2 or need to review specific concepts first.
 
 ---
-[← Previous: Step 3](./step-3-infrastructure-applications.md) | [Next: Module 2 - Repository Basics →](../../module-2-repository-basics/README.md)
+[← Previous: Step 3](./step-3-infrastructure-applications.md) | [Next: Module 2 - Repository Basics →](../module-2-repository-basics/README.md)

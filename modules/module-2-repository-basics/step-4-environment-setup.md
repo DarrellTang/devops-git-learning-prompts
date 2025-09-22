@@ -57,4 +57,4 @@ Keep it practical and focused on removing blockers for hands-on learning.
 You'll receive a setup checklist, then the AI will guide you through verifying your environment step-by-step. Based on your responses, you'll get personalized troubleshooting help and a clear assessment of your readiness for Module 3.
 
 ---
-[← Previous: Step 3](./step-3-local-vs-remote.md) | [Next: Module 3 - Basic Git Workflow →](../../module-3-basic-workflow/README.md)
+[← Previous: Step 3](./step-3-local-vs-remote.md) | [Next: Module 3 - Basic Git Workflow →](../module-3-basic-workflow/README.md)

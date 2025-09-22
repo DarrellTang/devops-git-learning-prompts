@@ -58,4 +58,4 @@ You now have the core Git skills used in 80-90% of DevOps work:
 Module 5 will help you integrate these skills and assess your readiness for real-world application.
 
 ---
-[← Previous: Step 3](./step-3-pull-request-workflow.md) | [Next: Module 5 - Assessment and Integration →](../../module-5-assessment/README.md)
+[← Previous: Step 3](./step-3-pull-request-workflow.md) | [Next: Module 5 - Assessment and Integration →](../module-5-assessment/README.md)
