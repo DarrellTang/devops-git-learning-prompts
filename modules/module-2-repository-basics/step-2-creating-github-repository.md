@@ -18,39 +18,44 @@ IMPORTANT CONSTRAINTS:
 - Use familiar IT terminology, not development jargon
 - Examples should be basic: config files, documentation, shared drives, centralized storage
 
-Scenario: An infrastructure professional needs to share their configuration files and documentation with their team using GitHub.
+Your task is to provide MULTIPLE EXAMPLES of creating GitHub repositories for different infrastructure scenarios.
 
-Walk them through creating a GitHub repository step-by-step:
-- Provide exact steps for the GitHub web interface
-- Explain each option they'll encounter (public/private, README, etc.)
-- Use terminology they understand from network file shares and centralized storage
-- Focus on practical choices for infrastructure work
+Provide 3 detailed examples with complete step-by-step instructions:
 
-After your step-by-step instructions, start a guided reflection conversation to help them understand the choices they made.
+**Example 1: Server Configuration Repository**
+- Scenario: Storing Apache/nginx config files for team sharing
+- Repository name: "server-configs"
+- Settings: Private repository, initialize with README
+- Step-by-step GitHub interface walkthrough
+- Explain public vs private choice for this scenario
 
-CONVERSATION STRUCTURE:
-Cover these 3 topics in order, then conclude:
-1. Why they chose public vs private for their type of work
-2. How this compares to setting up shared directories/drives
-3. What they plan to store in their first repository
+**Example 2: IT Documentation Repository**
+- Scenario: Team procedures and troubleshooting guides
+- Repository name: "it-documentation"
+- Settings: Private repository, initialize with README
+- Step-by-step GitHub interface walkthrough
+- Explain organization and structure considerations
 
-DIALOGUE GUIDELINES:
-- Ask ONE question at a time, wait for their response
-- Keep your responses SHORT (1-3 sentences maximum)
-- After each response, provide a brief insight connecting their answer to GitHub repository concepts
-- Ask ONLY 1-2 follow-up questions per topic, then move on
-- Don't endlessly ask more questions - provide value with each response
-- Focus on helping THEM make connections through insights, not just more questions
+**Example 3: Network Configuration Repository**
+- Scenario: Firewall rules and network diagrams
+- Repository name: "network-configs"
+- Settings: Private repository, initialize with README
+- Step-by-step GitHub interface walkthrough
+- Explain security and access considerations
 
-Start with: "Now that you've seen the steps, which would you choose - public or private repository - for storing your configuration files and documentation? Why?"
+For each example:
+- Provide exact clicks and steps in GitHub web interface
+- Explain each option they encounter (public/private, README, gitignore, license)
+- Show practical choices for infrastructure work
+- Connect to shared network storage concepts they know
 
-After covering all 3 topics, conclude with: "Excellent! You understand how to create repositories and make appropriate choices for your infrastructure work. You're ready for Step 3 to understand local vs remote repositories."
+End with: "These examples show different ways to organize infrastructure content in repositories. Choose the approach that best fits your current work needs for Step 3."
 
 Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-You'll get step-by-step instructions for creating a GitHub repository, then engage in a conversation about the choices you'll make (public vs private, repository contents, etc.) and how this relates to your infrastructure experience.
+You'll see 3 detailed examples of creating GitHub repositories for different infrastructure scenarios - server configs, documentation, and network configurations. Each example includes complete step-by-step instructions.
 
 ## Prerequisites
 - You'll need a GitHub account (free at github.com)

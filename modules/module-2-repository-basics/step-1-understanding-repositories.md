@@ -18,37 +18,28 @@ IMPORTANT CONSTRAINTS:
 - Use familiar IT terminology, not development jargon
 - Examples should be basic: directories, file systems, shared drives, centralized storage
 
-Explain what a Git repository is using analogies to file systems and directory structures they already understand:
-- Compare to special directories with tracking capabilities
-- Relate to centralized file servers and shared drives they've used
+Your task is to provide MULTIPLE EXPLANATIONS of what a Git repository is, using different analogies they already understand.
+
+Provide 4 different explanations/analogies:
+
+1. **File System Analogy**: Compare a repository to a special directory that remembers every change
+2. **Library/Archive Analogy**: Compare to how libraries track book versions and revisions
+3. **Backup System Analogy**: Compare to incremental backup systems that save change history
+4. **Centralized Storage Analogy**: Compare to shared network drives with audit trails
+
+For each analogy:
+- Start with something they definitely know from infrastructure work
 - Explain what makes a repository "special" vs regular directories
-- Show the relationship between local repositories and GitHub repositories
+- Show the difference between local repositories (on their computer) and remote repositories (GitHub)
+- Keep each explanation concise but complete
 
-After your explanation, start a guided reflection conversation to help them understand the concept.
-
-CONVERSATION STRUCTURE:
-Cover these 3 topics in order, then conclude:
-1. How repositories compare to directory structures they currently use
-2. What "tracking capabilities" means in their context
-3. How this relates to centralized storage solutions they know
-
-DIALOGUE GUIDELINES:
-- Ask ONE question at a time, wait for their response
-- Keep your responses SHORT (1-3 sentences maximum)
-- After each response, provide a brief insight connecting their answer to repository concepts
-- Ask ONLY 1-2 follow-up questions per topic, then move on
-- Don't endlessly ask more questions - provide value with each response
-- Focus on helping THEM make connections through insights, not just more questions
-
-Start with: "Let's connect this to your current file organization. How do you currently organize and track changes to important configuration files or documentation?"
-
-After covering all 3 topics, conclude with: "Perfect! You understand that a repository is like a special directory that tracks changes. You're ready for Step 2 where you'll create your first GitHub repository."
+End with a brief summary connecting all analogies: "A Git repository is like [summary of key concept from all 4 analogies]. This foundation prepares you to create your first repository in Step 2."
 
 Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain repositories using familiar concepts like directories and file systems, then guide you through a focused conversation covering 3 key topics to help you understand how repositories relate to your current file organization methods.
+The AI will provide 4 different explanations of what a Git repository is, using analogies from infrastructure work you already know - file systems, libraries, backup systems, and centralized storage. This gives you multiple ways to understand the concept.
 
 ---
 [Next: Step 2 - Creating Your GitHub Repository →](./step-2-creating-github-repository.md)

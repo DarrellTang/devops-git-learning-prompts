@@ -9,7 +9,7 @@ Copy the prompt below and paste it into your AI chat. This explains how local an
 ## Your Learning Prompt
 
 ```
-You generate clear explanations for infrastructure professionals learning about local vs remote repositories.
+You generate diagnostic assessments for infrastructure professionals learning about local vs remote repositories.
 My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
 
 IMPORTANT CONSTRAINTS:
@@ -18,43 +18,42 @@ IMPORTANT CONSTRAINTS:
 - Use familiar IT terminology, not development jargon
 - Examples should be basic: local files vs shared drives, file synchronization, backups
 
-Explain the critical relationship between local repositories (on their computer) and remote repositories (on GitHub):
-- Compare to local files vs shared drives/cloud storage they already use
-- Explain why they start as separate copies that need synchronization
-- Address common misconceptions from direct server file editing
-- Show how this differs from automatic cloud sync services they know
+Create a diagnostic quiz with 4 multiple-choice questions testing whether they understand the critical relationship between local Git repositories and GitHub repositories.
 
-Use scenarios like:
-- Editing config files locally vs on a shared drive
-- File synchronization with services like Dropbox or OneDrive
-- Local backups vs centralized backup storage
-- Working offline vs online with shared resources
+Focus on scenarios like:
+- When changes exist only locally vs. on GitHub
+- What happens when you create a repository in each location
+- How the two repositories stay synchronized
+- Common misconceptions from direct server file editing
 
-After your explanation, start a guided reflection conversation to solidify their understanding.
+For each question:
+- Present a realistic infrastructure scenario (editing config files, updating documentation, etc.)
+- Include plausible wrong answers based on common misconceptions from people used to:
+  * Direct file editing on servers
+  * Automatic cloud sync services like Dropbox
+  * Shared network drives
+- Make the correct answer clearly show the separate nature of local vs remote
 
-CONVERSATION STRUCTURE:
-Cover these 3 topics in order, then conclude:
-1. How this compares to file sync services they currently use
-2. Common misconceptions they might have from server file editing
-3. When they would work locally vs directly on the remote
+IMPORTANT: Present ONE question at a time, wait for their answer, then move to the next question.
 
-DIALOGUE GUIDELINES:
-- Ask ONE question at a time, wait for their response
-- Keep your responses SHORT (1-3 sentences maximum)
-- After each response, provide a brief insight connecting their answer to local/remote concepts
-- Ask ONLY 1-2 follow-up questions per topic, then move on
-- Don't endlessly ask more questions - provide value with each response
-- Focus on helping THEM make connections through insights, not just more questions
+After each question:
+- Provide brief feedback (correct/incorrect and why)
+- Connect their answer to file sync concepts they already know
 
-Start with: "Think about how you currently sync files with cloud storage like Dropbox. What happens if you edit a file locally but don't sync it yet?"
+IMPORTANT: Vary the correct answer position - don't put all correct answers in the same position (A, B, C, or D).
 
-After covering all 3 topics, conclude with: "Perfect! You understand that local and remote repositories are separate until you synchronize them. You're ready for Step 4 to set up your local Git environment."
+Keep track of their score as you go. After all 4 questions, provide their final score and feedback.
+
+PROVIDE GUIDANCE BASED ON SCORE:
+- If 4/4 or 3/4: "Excellent! You understand the local/remote distinction. You're ready for Step 4."
+- If 2/4: "Good foundation, but review the synchronization concepts. Remember: local and remote start as separate copies."
+- If 1/4 or 0/4: "This is a critical concept. Review how local files and shared drives work separately until you sync them."
 
 Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain the crucial relationship between local and remote repositories using file sync analogies you already know, then guide you through a focused conversation to address common misconceptions and solidify your understanding.
+You'll take a 4-question quiz testing your understanding of the critical local vs remote repository relationship. The AI will provide immediate feedback after each question and guidance based on your overall performance.
 
 ---
 [← Previous: Step 2](./step-2-creating-github-repository.md) | [Next: Step 4 - Environment Setup →](./step-4-environment-setup.md)
