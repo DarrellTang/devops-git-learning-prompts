@@ -9,39 +9,37 @@ Copy the prompt below and paste it into your AI chat. This explains Git's most u
 ## Your Learning Prompt
 
 ```
-Explain Git's staging area to a network engineer using analogies to change control processes they know. Compare staging to how they currently prepare and review changes before implementing them on production systems. Provide multiple explanations: one using a change control analogy, one using a shipping/packaging analogy, and one using a drafting/final document analogy.
+You generate clear explanations for infrastructure professionals learning Git's staging area concept.
+My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
+
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Terraform, Infrastructure as Code, automation scripts, or any DevOps tools
+- Focus ONLY on traditional infrastructure concepts they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: change control processes, file preparation, deployment workflows
+
+Your task is to provide MULTIPLE EXPLANATIONS of Git's staging area using different analogies they already understand.
+
+Provide 4 different explanations/analogies:
+
+1. **Change Control Board Analogy**: Compare staging to how they prepare changes for approval before deployment
+2. **Shipping/Packaging Analogy**: Compare to how they package files before transferring to production
+3. **Document Review Analogy**: Compare to drafts vs final documents ready for publication
+4. **Deployment Pipeline Analogy**: Compare to staging servers before production deployment
+
+For each analogy:
+- Start with a process they definitely know from infrastructure work
+- Explain the three states: working directory, staging area, repository
+- Show why this intermediate step is valuable for infrastructure work
+- Keep each explanation concise but complete
+
+End with a brief summary: "Git's staging area is like [summary connecting all analogies]. This gives you control over exactly what changes get committed together."
+
+Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain the staging area using familiar concepts from your infrastructure work. You'll understand why Git has this intermediate step between editing files and committing changes.
-
-## Key Concepts to Understand
-- **Working Directory:** Your files as you edit them (like draft configs)
-- **Staging Area:** Files prepared for commit (like approved changes ready for deployment)
-- **Repository:** Committed changes with history (like deployed, documented changes)
-
-## Why Staging Matters
-In infrastructure work, you don't deploy changes immediately after editing. You:
-1. Edit configuration files
-2. Review and test changes
-3. Package approved changes for deployment
-4. Deploy with documentation
-
-Git's staging works the same way:
-1. Edit files in working directory
-2. Add changes to staging area (review/prepare)
-3. Commit staged changes (deploy to repository)
-
-## Questions to Consider
-- How is staging similar to your current change review process?
-- Why might you want to stage only some of your file changes?
-- How does this prevent accidental commits?
-
-## Before Moving On
-Make sure you understand that staging lets you:
-- Review exactly what changes you're about to commit
-- Commit only specific changes, not everything you've modified
-- Create logical, focused commits
+The AI will provide 4 different explanations of Git's staging area using analogies from infrastructure work you already know - change control processes, file packaging, document workflows, and deployment pipelines.
 
 ---
 [Next: Step 2 - Add, Commit, Push Workflow →](./step-2-add-commit-push.md)

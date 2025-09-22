@@ -9,28 +9,38 @@ Copy the prompt below and paste it into your AI chat. This explains branching us
 ## Your Learning Prompt
 
 ```
-Explain Git branching to a cloud engineer by comparing it to creating isolated test environments. Show how branching allows them to experiment with infrastructure changes without affecting the main configuration. Provide multiple explanations: one using environment isolation analogy, one using document versioning analogy, and one using parallel work streams analogy.
+You generate clear explanations for infrastructure professionals learning Git branching concepts.
+My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
+
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Terraform, Infrastructure as Code, automation scripts, or any DevOps tools
+- Focus ONLY on traditional infrastructure concepts they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: test environments, document workflows, parallel work processes
+
+Your task is to provide MULTIPLE EXPLANATIONS of Git branching using different analogies they already understand.
+
+Provide 4 different explanations/analogies:
+
+1. **Test Environment Analogy**: Compare branches to creating isolated test environments where you can safely experiment without affecting production
+2. **Document Versioning Analogy**: Compare to working on different versions of documentation or procedures simultaneously
+3. **Parallel Work Streams Analogy**: Compare to multiple team members working on different aspects of a project simultaneously
+4. **Change Control Analogy**: Compare to having separate change tracks for different types of infrastructure modifications
+
+For each analogy:
+- Start with a process they definitely know from infrastructure work
+- Explain main branch = production, feature branch = test/development
+- Show how branches allow safe experimentation and parallel work
+- Explain merging as promoting tested changes to production
+- Keep each explanation concise but complete
+
+End with a brief summary: "Git branching is like [summary connecting all analogies]. This allows safe experimentation and team collaboration without conflicts."
+
+Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain branching using familiar infrastructure concepts like test environments, staging areas, and parallel development workflows.
-
-## Key Concepts to Understand
-- **Main branch** = Production environment (stable, tested)
-- **Feature branch** = Test environment (experimental, isolated)
-- **Switching branches** = Moving between environments
-- **Merging** = Promoting tested changes to production
-
-## Why Branching Matters for Infrastructure
-- Test changes without affecting production
-- Work on multiple features simultaneously
-- Collaborate without conflicts
-- Easy rollback if something breaks
-
-## Questions to Consider
-- How is this similar to creating test VMs for configuration changes?
-- Why might you want multiple people working on different branches?
-- How does this relate to your current change management process?
+The AI will provide 4 different explanations of Git branching using analogies from infrastructure work you already know - test environments, document workflows, parallel work streams, and change control processes.
 
 ---
 [Next: Step 2 - Creating and Using Branches →](./step-2-creating-branches.md)

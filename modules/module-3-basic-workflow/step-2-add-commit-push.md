@@ -9,46 +9,56 @@ Copy the prompt below and paste it into your AI chat. This shows the complete wo
 ## Your Learning Prompt
 
 ```
-Generate 4 different scenarios showing the complete add-commit-push workflow: 
-(1) a cloud engineer updating Terraform files, 
-(2) a sysadmin modifying configuration files, 
-(3) a network engineer updating firewall rules, 
-(4) a systems engineer adding documentation. 
+You provide practical examples of the Git add-commit-push workflow for infrastructure professionals.
+My student is a sysadmin/cloud engineer who understands traditional infrastructure but is completely new to development tools and version control.
 
-For each scenario, show the exact Git commands, explain what each command does, and why this 
-workflow is better than their current file management approach.
+IMPORTANT CONSTRAINTS:
+- DO NOT mention Terraform, Infrastructure as Code, automation scripts, or any DevOps tools
+- Focus ONLY on traditional infrastructure tasks they definitely know
+- Use familiar IT terminology, not development jargon
+- Examples should be basic: config files, documentation, network rules, server settings
+
+Your task is to provide MULTIPLE EXAMPLES of the complete add-commit-push workflow for different infrastructure scenarios.
+
+Provide 4 detailed examples with exact Git commands:
+
+**Example 1: Server Configuration Updates**
+- Scenario: Updating Apache/nginx configuration files
+- Files: httpd.conf, server.conf
+- Show exact git add, commit, push commands
+- Explain what each command does
+
+**Example 2: IT Documentation Updates**
+- Scenario: Adding new troubleshooting procedures
+- Files: procedures.md, troubleshooting-guide.md
+- Show exact git add, commit, push commands
+- Explain benefits over shared drive approach
+
+**Example 3: Network Configuration Updates**
+- Scenario: Updating firewall rules and network diagrams
+- Files: firewall-rules.txt, network-diagram.png
+- Show exact git add, commit, push commands
+- Explain version tracking benefits
+
+**Example 4: System Monitoring Setup**
+- Scenario: Adding monitoring configuration and scripts
+- Files: monitoring.conf, check-disk-space.sh
+- Show exact git add, commit, push commands
+- Explain collaboration benefits
+
+For each example:
+- Show the complete workflow from file edit to GitHub
+- Include git status checks throughout
+- Explain why this is better than their current approach
+- Use realistic file names they would recognize
+
+End with: "Notice how the workflow stays consistent regardless of file type. This pattern becomes automatic with practice."
+
+Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-You'll see four realistic infrastructure scenarios with the exact Git commands for each step. Pay attention to how the workflow stays the same regardless of what type of files you're working with.
-
-## The Three-Step Workflow
-Every change you make follows this pattern:
-
-1. **Add** (`git add`) - Stage your changes for commit
-2. **Commit** (`git commit`) - Save changes to your local repository
-3. **Push** (`git push`) - Send changes to GitHub
-
-## Key Commands You'll Learn
-- `git add filename` - Stage a specific file
-- `git add .` - Stage all modified files
-- `git commit -m "message"` - Commit with a message
-- `git push` - Send to GitHub
-- `git status` - Check current state
-
-## Why This Workflow Matters
-Each step serves a purpose:
-- **Add** lets you review what you're about to commit
-- **Commit** creates a save point with a description
-- **Push** shares your work and backs it up
-
-## Practice Exercise
-After learning the commands, try this on your test repository:
-1. Edit the README file
-2. Add it to staging
-3. Commit with a message
-4. Push to GitHub
-5. Check GitHub to confirm the change appeared
+You'll see 4 detailed examples showing the complete add-commit-push workflow for different infrastructure scenarios - server configs, documentation, network rules, and monitoring setup. Each example includes exact Git commands.
 
 ---
 [← Previous: Step 1](./step-1-understanding-staging.md) | [Next: Step 3 - Commit Messages →](./step-3-commit-messages.md)
