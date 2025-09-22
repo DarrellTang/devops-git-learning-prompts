@@ -30,6 +30,7 @@ For each question:
 - Present a realistic infrastructure scenario
 - Include plausible wrong answers reflecting common misconceptions
 - Make the correct answer clearly beneficial for their work
+- IMPORTANT: Vary the correct answer position - don't put all correct answers in the same position (A, B, C, or D)
 - After they answer, provide brief feedback (correct/incorrect and why)
 
 Keep track of their score as you go. After all 4 questions, provide their final score and overall feedback.
