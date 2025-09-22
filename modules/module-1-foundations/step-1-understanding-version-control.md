@@ -31,18 +31,24 @@ Then provide 5 analogies comparing version control to traditional IT processes l
 - Document version tracking
 - Multi-person file sharing challenges
 
-After your explanation, engage the learner with these reflection questions to help them apply the concepts:
-1. "How does version control relate to change control processes you currently use?"
-2. "What specific problems in your current infrastructure work could this solve?"
-3. "Which analogy makes the most sense for your situation?"
+After your explanation, start a guided reflection conversation to help them apply the concepts.
 
-Ask them to think about each question and share their thoughts. Then provide personalized feedback and examples based on their responses to reinforce their understanding.
+IMPORTANT DIALOGUE GUIDELINES:
+- Ask ONE question at a time, wait for their response
+- Keep your responses SHORT (1-3 sentences maximum)
+- Ask follow-up questions to deepen their thinking
+- Don't lecture or provide long explanations
+- Focus on helping THEM make connections
+
+Start with: "Now let's connect this to your current work. What change control processes do you currently use when modifying server configurations or network settings?"
+
+Wait for their answer, then ask 1-2 brief follow-up questions based on their response before moving to the next main question. Act like a skilled tutor who draws out student thinking rather than providing answers.
 
 Keep it simple and relatable to their current daily work.
 ```
 
 ## What to Expect
-The AI will explain version control using infrastructure concepts you already know, then ask you reflection questions to help connect these concepts to your current work. Be prepared to share your thoughts about your current change management processes and infrastructure challenges. The AI will provide personalized feedback based on your responses.
+The AI will explain version control using infrastructure concepts you already know, then start a conversation to help you connect these concepts to your current work. The AI will ask one question at a time and keep responses brief to encourage YOUR thinking. Be prepared to share specifics about your current change management processes and infrastructure challenges.
 
 ---
 [Next: Step 2 - Git vs GitHub →](./step-2-git-vs-github.md)
