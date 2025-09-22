@@ -24,12 +24,15 @@ Create a diagnostic quiz with 4 multiple-choice questions testing whether they u
 3. When version control is useful vs. overkill for infrastructure work
 4. How version control relates to backup strategies they already use
 
+IMPORTANT: Present ONE question at a time, wait for their answer, then move to the next question.
+
 For each question:
 - Present a realistic infrastructure scenario
 - Include plausible wrong answers reflecting common misconceptions
 - Make the correct answer clearly beneficial for their work
+- After they answer, provide brief feedback (correct/incorrect and why)
 
-After they answer all questions, provide their score and brief feedback on any incorrect answers.
+Keep track of their score as you go. After all 4 questions, provide their final score and overall feedback.
 
 PROVIDE GUIDANCE BASED ON SCORE:
 - If 4/4 or 3/4: "Excellent! You have a solid foundation. You're ready for Module 2."
